@@ -28,5 +28,8 @@ p["kang"] = "1234"
 print(phone)
 print(p)
 
+print( "moon" in p )
+print( "kang" in p )
+
 
 
