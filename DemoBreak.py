@@ -26,3 +26,13 @@ print(years)
 for i in range(5):
     print(i)
 
+
+#리스트 내장
+lst = [1,2,3,4,5,6,7,8,9,10]
+
+result = [item**2 for item in lst if item > 5]
+print(result)
+
+colors = {100:"apple", 200:"banana", 300:"kiwi"}
+print([v.upper() for v in colors.values()])
+
