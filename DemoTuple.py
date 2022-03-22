@@ -9,6 +9,8 @@ print(b)
 #중지점(Break Point)  
 print(a.union(b))
 print(a.difference(b))
+print('test')
+
 
 
 
