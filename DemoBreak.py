@@ -36,3 +36,18 @@ print(result)
 colors = {100:"apple", 200:"banana", 300:"kiwi"}
 print([v.upper() for v in colors.values()])
 
+#필터링하는 함수
+lst = [10,25,30]
+
+itemL = filter(None, lst)
+for item in itemL:
+    print(item)
+
+print("---필터링하는 경우---")
+#필터링 함수 정의
+def getBiggerThan20(i):
+    return i>20
+
+itemL = filter(getBiggerThan20, lst)
+for item in itemL:
+    print(item)
