@@ -25,6 +25,21 @@ print("-------")
 result = calc(5,6)
 print(result)
 print(result[0], result[1])
+result1, result2 = calc(2,3)
+print(result1, result2)
+#튜플에 묶어서 데이터를 저장 
+args = (3,4)
+print(calc(*args))
+
+#형식을 변환
+a = (1,2,3)
+b = set(a)
+print(type(b))
+print(b)
+c = list(b)
+c.append(4)
+print(c)
+
 
 
 
