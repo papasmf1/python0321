@@ -40,6 +40,39 @@ c = list(b)
 c.append(4)
 print(c)
 
+#변수의 값을 덮어쓰기를 한경우 
+a1 = 5 
+a2 = 10 
+print(a1, a2)
+
+#딕셔너리
+color = {"apple":"red", "banana":"yellow"}
+print(len(color))
+print(type(color))
+print(color["apple"])
+
+#반복구문
+for item in color.items():
+    print(item)
+
+
+print("------------")
+for k,v in color.items():
+    print(k,v)
+
+#내가 원하는 만큼 반복 인덱싱[0,5]
+#규칙이 있는 수열을 만들 때 사용: range(start, end, step)
+for i in range(1,11):
+    print(i)
+
+
+
+
+
+
+
+
+
 
 
 
