@@ -16,4 +16,20 @@ def swap(x,y):
 retValue = swap(5,6)
 print(retValue)
 
+#가변형식과 불변형식 
+#불변형식(정수,실수,불린,문자열,튜플)
+#값형식은 없고 참조형식만 제공 
+a = 5 
+print(id(a))
+a = 6 
+print(id(a))
+
+print("---가변형식---")
+lst = [1,2,3]
+print(id(lst))
+lst.append(4)
+print(id(lst))
+
+print(globals())
+
 
