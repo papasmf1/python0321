@@ -28,6 +28,8 @@ f.write("새로운 문자열을 추가\n")
 f.close() 
 
 #다시 읽기 
-f = open("c:\\work\\demo.txt", "a+", encoding="utf-8")
+f = open("c:\\work\\demo.txt", "rt", encoding="utf-8")
 print(f.read())
+f.close() 
+
 
