@@ -2,15 +2,12 @@
 #에러 처리 추가 
 
 #함수 정의
-from typing import final
-
-
 def divide(a,b):
     return a/b 
 
 try: 
     #호출
-    result = divide(5,0)
+    result = divide(5,2)
 except ZeroDivisionError:
     print("0으로 나누면 안됩니다.")
 except TypeError:
