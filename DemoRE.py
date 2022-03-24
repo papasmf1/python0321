@@ -13,8 +13,10 @@ print(result)
 print(result.group())
 
 #약간의 함정 추가
-print(bool(re.search("[0-9]*th", "  35th")))
-print(bool(re.match("[0-9]*th", "  35th")))
+print("---패턴 매칭---")
+print(bool(re.search("\d*th", "3th")))
+print(bool(re.search("\d*th", "th")))
+print(bool(re.match("[0-9]+th", "  35th")))
 
 print("--우편변호 패턴---")
 print(bool(re.search("\d{5}", "우리 동네는 52300")))
